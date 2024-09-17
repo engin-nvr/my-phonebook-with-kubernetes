@@ -1,4 +1,4 @@
-# Project: Microservice Architecture for Phonebook Web Application
+# My Phonebook Web Application Built with Microservice Architecture
 
 ## Description
 The goal of the phonebook project is to demonstrate microservice architecture by developing a web application. The application utilizes MySQL as its database and leverages Docker and Kubernetes for containerization and orchestration. The frontend component provides a search page for performing read operations, while the backend serves as an application gateway responsible for adding, removing, and updating entries. Kubernetes manages both the frontend and backend services, ensuring their deployment and scalability. To maintain data persistence, Persistent Volumes (PV) and Persistent Volume Claims (PVC) are used, ensuring that database data remains intact across container restarts and rescheduling.
